@@ -1,9 +1,10 @@
 #!/usr/bin/python 
 
-import hashlib
-import os
-import fileinput
+#imports begin
+import hashlib, os, fileinput
 from M2Crypto import RSA
+#end imports
+
 
 print "Hashing\r\n";
 
